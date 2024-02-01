@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+font-family: 'Monserrat';
+src:url(../assets/fonts/Monserrat/)
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto/);
+}
+
+.title {
+    font-family: 'Monserrat';
+    src: url(../assets/fonts/Monserrat/Montserrat-Italic.ttf);
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.text {
+    font-family: 'Monserrat';
+    src: url(../assets/fonts/Monserrat/Montserrat-SemiBold.ttf);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: lightskyblue;
+    border-color: white;
+    border-radius: 3px;
+    color : white;
+    border: 2px solid transparent;
+}
+
+.btn-primary:hover {
+    border: 2px solid lightskyblue;
+    color : lightskyblue;
+    background-color: transparent;
+}
+
+.display-3 {
+    font-family: 'Monserrat';
+}
+
+.bg-color {
+    background-color: rgb(240, 238, 238);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    height: 130px;
+}
+
+ul li {
+    color: darkgrey;
+    display: inline-block;
+    padding: 5px 140px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(96, 96, 96);
+    font-size: medium; 
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box img {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.box div {
+    z-index: 3;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.b1 {
+    color: rgb(68, 68, 68);
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto/Roboto-BoldItalic.ttf);
+    margin-top: 100px;
+    grid-area: a1;
+}
+
+.b2 {
+    border-radius: 10px;
+    grid-area: a2;
+}
+
+.b3 {
+    grid-area: a3;
+}
+
+.b4 {
+    grid-area: a4;
+}
+
+.b5 {
+    color: rgb(68, 68, 68);
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto/Roboto-BoldItalic.ttf);
+    grid-area: a5;
+}
+
+.b6 {
+    color: rgb(68, 68, 68);
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto/Roboto-BoldItalic.ttf);
+    grid-area: a6;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat (2, 100%);
+    grid-template-rows: repeat (2, 100%);
+    gap: 5px;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+    'a1 a1' 
+    'a2 a2'
+    'a6 a6'
+    'a3 a3'
+    'a5 a5'
+    'a4 a4';
+}
+
+.carousel-caption, .button {
+color: black;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 80%;
+}
+
+.footer {
+    background-color: rgb(240, 238, 238);
+    text-align: center;
+    padding: 20px;
+    margin-top: 300px;
+    font-size: large;
+    font-weight:bold;
+}
+
+.card {
+    border-radius: 10px;
+    border-color: rgb(109, 109, 109);
+    border-style: solid;
+    padding: 5px;
+    margin: 0px;
+
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.row g-3 {
+    margin: 0;
+}
+
+.form-control {
+    border-radius: 5px;
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+.form-label {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto/Roboto-Bold.ttf);
+}
