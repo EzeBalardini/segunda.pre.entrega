@@ -66,7 +66,7 @@ header {
 ul li {
     color: darkgrey;
     display: inline-block;
-    padding: 5px 140px;
+    padding: 5px 130px;
 }
 
 a {
@@ -114,14 +114,28 @@ a {
 
 .b2 {
     border-radius: 10px;
+    align-items: left;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 50px;
     grid-area: a2;
 }
 
 .b3 {
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 20px;
     grid-area: a3;
 }
 
 .b4 {
+    border-radius: 10px;
+    align-items: right;
+    justify-content: right;
+    margin-top: 20px;
+    margin-left: 400px;
     grid-area: a4;
 }
 
@@ -174,7 +188,6 @@ color: black;
     background-color: rgb(240, 238, 238);
     text-align: center;
     padding: 20px;
-    margin-top: 300px;
     font-size: large;
     font-weight:bold;
 }
@@ -209,5 +222,13 @@ color: black;
 .form-label {
     font-family: 'Roboto';
     src: url(../assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+.icon-link {
+    color: rgb(49, 63, 118);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-left: 10px;
 }
 
